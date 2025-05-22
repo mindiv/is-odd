@@ -1,0 +1,37 @@
+{
+  "name": "@geekreflex/is-odd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dits/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+   "build": "tsup src/index.ts --format esm,cjs --dts",
+   "test": "vitest run"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+  "dist",
+  "package.json",
+  "README.md"
+    ],
+  "type": "module",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+  "url": "https://github.com/geekreflex/is-odd"
+  },
+  "keywords": ["odd", "is-odd", "number", "utility", "typescript"]
+
+}

@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+
+# Testing
+coverage/
+.vitest/
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# pnpm
+.pnpm-debug.log
