@@ -16,7 +16,17 @@
     "test": "vitest run",
     "docs": "typedoc src"
   },
-  "author": "",
+  "author": "Jerry <jerrynwosu078@gmail.com>",
+  "contributors": [
+    {
+      "name": "Josh",
+      "email": "joshuanwosu078@gmail.com"
+    },
+    {
+      "name": "Jerry",
+      "email": "jerrynwosu007@gmail.com"
+    }
+  ],
   "license": "ISC",
   "files": [
     "dist",
@@ -32,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geekreflex/is-odd"
+    "url": "https://github.com/mindiv/is-odd"
   },
   "keywords": [
     "odd",
