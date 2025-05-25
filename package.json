@@ -12,29 +12,36 @@
     }
   },
   "scripts": {
-   "build": "tsup src/index.ts --format esm,cjs --dts",
-   "test": "vitest run"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest run",
+    "docs": "typedoc src"
   },
   "author": "",
   "license": "ISC",
   "files": [
-  "dist",
-  "package.json",
-  "README.md"
-    ],
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "type": "module",
   "devDependencies": {
     "tsup": "^8.5.0",
+    "typedoc": "^0.28.4",
     "typescript": "^5.8.3",
     "vitest": "^3.1.4"
   },
   "repository": {
     "type": "git",
-  "url": "https://github.com/geekreflex/is-odd"
+    "url": "https://github.com/geekreflex/is-odd"
   },
-  "keywords": ["odd", "is-odd", "number", "utility", "typescript"],
+  "keywords": [
+    "odd",
+    "is-odd",
+    "number",
+    "utility",
+    "typescript"
+  ],
   "bin": {
     "is-odd": "./cli.js"
   }
-
 }

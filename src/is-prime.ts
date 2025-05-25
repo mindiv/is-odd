@@ -1,3 +1,14 @@
+/**
+ * Determines if a given integer greater than 1 is a prime number.
+ *
+ * @param n - The integer to test.
+ * @returns `true` if `n` is prime; otherwise `false`.
+ *
+ * @example
+ * isPrime(7);      // true
+ * isPrime(12);     // false
+ * isPrime(1);      // false
+ */
 export function isPrime(n: number): boolean {
   if (!Number.isInteger(n) || n < 2) return false;
   if (n === 2) return true;
