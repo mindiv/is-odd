@@ -5,7 +5,7 @@ const [,, command, ...args] = process.argv;
 
 const usage = `
 Usage:
-  @mindiv/is-odd <command> <value> [extra]
+  @mindiv/utils <command> <value> [extra]
 Commands:
   is-odd <number>
   is-even <number>

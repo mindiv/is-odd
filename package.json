@@ -1,5 +1,5 @@
 {
-  "name": "@mindiv/is-odd",
+  "name": "@mindiv/utils",
   "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
@@ -42,11 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mindiv/is-odd"
+    "url": "https://github.com/mindiv/utils"
   },
   "keywords": [
-    "odd",
-    "is-odd",
     "number",
     "utility",
     "typescript"
