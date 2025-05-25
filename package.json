@@ -32,6 +32,9 @@
     "type": "git",
   "url": "https://github.com/geekreflex/is-odd"
   },
-  "keywords": ["odd", "is-odd", "number", "utility", "typescript"]
+  "keywords": ["odd", "is-odd", "number", "utility", "typescript"],
+  "bin": {
+    "is-odd": "./cli.js"
+  }
 
 }
