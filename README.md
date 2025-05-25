@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/@yourname/is-odd)](https://www.npmjs.com/package/@yourname/is-odd)
+[![npm version](https://img.shields.io/npm/v/@mindiv/is-odd)](https://www.npmjs.com/package/@mindiv/is-odd)
 
 ### Utilities
 

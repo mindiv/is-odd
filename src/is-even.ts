@@ -10,7 +10,7 @@ import { isOdd } from "./is-odd";
  * isEven(4);       // true
  * isEven(-3n);     // false
  */
-export function idEven(n: number | bigint): boolean {
+export function isEven(n: number | bigint): boolean {
   // simply the inverse of isOdd
   return !isOdd(n);
 }
